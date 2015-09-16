@@ -5,6 +5,10 @@
   "main": [
     "./dist/ionic-danskebank-auth.bundle.min.js"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tuanka/danskebank-auth.git"
+  },
   "scripts": {},
   "author": "https://github.com/tuanka/danskebank-auth.git, tuankaka@gmail.com",
   "license": "MIT",
