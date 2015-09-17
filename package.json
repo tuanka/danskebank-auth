@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A module that helps to authenticate",
   "main": [
-    "./dist/ionic-danskebank-auth.bundle.min.js"
+    "./dist/danskebank-auth.bundle.min.js"
   ],
   "repository" : {
     "type" : "git",
@@ -18,7 +18,7 @@
     "gulp-concat": "^2.6.0",    
     "gulp-uglify": "^1.2.0",
     "gulp": "^3.8.7",    
-    "gulp-plumber": "^0.6.6",
-    "gulp-rename": "^1.2.0"
+    "gulp-plumber": "*",
+    "gulp-rename": "*"
   }
 }

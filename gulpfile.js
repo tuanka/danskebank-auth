@@ -6,9 +6,6 @@ var path = require('path');
 var plumber = require('gulp-plumber');
 var runSequence = require('run-sequence').use(gulp);
 
-/**
- * File patterns
- **/
 
 // Root directory
 var rootDirectory = path.resolve('./');
@@ -33,7 +30,7 @@ gulp.task('build', function() {
     .pipe(concat('danskebank-auth.js'))
     .pipe(gulp.dest('./dist/'))
     .pipe(uglify())
-    .pipe(rename('danskebank-auth.min.js'))
+    .pipe(rename('danskebank-auth.bundle.min.js'))
     .pipe(gulp.dest('./dist'));
 });
 
